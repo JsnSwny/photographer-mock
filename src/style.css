@@ -1,0 +1,58 @@
+@tailwind base;
+
+@tailwind components;
+
+body {
+    background-image: linear-gradient(rgba(255, 228, 169, 0.75), rgba(255, 228, 169, 0.75)), url("../images/landscape.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+nav h1:hover {
+    background-color: rgba(192, 192, 192, 0.178);
+}
+
+nav h1 {
+    transition: 0.1s all ease-in;
+}
+
+.main-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/photographer.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main-text {
+    font-size: 36px;
+}
+
+@media (min-width: 768px) {
+    .main-text {
+        font-size: 60px;
+    }
+    nav {
+        background-color: rgba(0,0,0,0.05)
+    }
+}
+
+.hire-btn {
+    border-radius: 30px;
+    background-color: rgba(231, 195, 104, 0.6);
+    transition: 0.2s ease-in all;
+}
+
+.hire-btn:hover {
+    background-color: rgb(226, 205, 153);
+}
+
+@tailwind utilities;
