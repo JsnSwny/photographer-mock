@@ -679,7 +679,7 @@ nav h1 {
 
 .hire-btn {
   border-radius: 30px;
-  background-color: rgba(231, 195, 104, 0.6);
+  background-color: rgba(231, 195, 104, 0.8);
   -webkit-transition: 0.2s ease-in all;
   transition: 0.2s ease-in all;
 }
