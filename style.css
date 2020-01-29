@@ -641,15 +641,15 @@ body {
   background-repeat: no-repeat;
 }
 
-nav {
+.home-nav {
   background-color: rgba(0, 0, 0, 0.87);
 }
 
-nav h1:hover {
+.home-nav h1:hover {
   background-color: rgba(192, 192, 192, 0.178);
 }
 
-nav h1 {
+.home-nav h1 {
   -webkit-transition: 0.1s all ease-in;
   transition: 0.1s all ease-in;
 }
@@ -672,7 +672,7 @@ nav h1 {
     font-size: 60px;
   }
 
-  nav {
+  .home-nav {
     background-color: rgba(0,0,0,0.05)
   }
 }
@@ -686,6 +686,34 @@ nav h1 {
 
 .hire-btn:hover {
   background-color: rgb(226, 205, 153);
+}
+
+.contact-bg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(126, 68, 3, 0.6)), to(rgba(0, 0, 0, 0.8))), url("../images/landscape-2.jpeg");
+  background-image: linear-gradient(rgba(126, 68, 3, 0.6), rgba(0, 0, 0, 0.8)), url("../images/landscape-2.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.contact-form {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(235, 171, 111, 0.6)), to(rgba(19, 18, 7, 0.8))), url("../images/landscape-2.jpeg");
+  background-image: linear-gradient(rgba(235, 171, 111, 0.6), rgba(19, 18, 7, 0.8)), url("../images/landscape-2.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 6px 5px -2px rgba(0,0,0,0.68);
+}
+
+.contact-input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #c7c7c7;
+}
+
+.contact-bg button {
+  box-shadow: 0px 6px 10px -3px rgba(0,0,0,0.68);
 }
 
 .sr-only {

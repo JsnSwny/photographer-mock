@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+</head>
+<body>
+    <nav style="background-color: rgba(0,0,0,0.3);" class="fixed w-full">
+        <div class="flex justify-between items-center w-3/5 mx-auto text-white font-normal py-8 text-xl">
+            <a class="cursor-pointer hover:text-gray-400">Home</a>
+            <a class="cursor-pointer hover:text-gray-400">Portfolio</a>
+            <a class="cursor-pointer hover:text-gray-400">Services</a>
+            <a class="cursor-pointer hover:text-gray-400">Contact Me</a>
+        </div>
+    </nav>
+    <div class="contact-bg flex justify-center items-center">
+        <div style="height: 70%; border-radius: 15px;" class="contact-form w-3/5 text-white flex">
+            <div class="w-3/5 flex flex-col justify-center items-center h-full">
+                <h1 class="font-bold text-5xl mb-8"><span class="font-thin">Contact</span> Me</h1>
+                <label for="name" class="w-4/12">Name</label>
+                <input class="contact-input focus:outline-none w-4/12 mt-2" type="text" id="name" />
+                <label for="email" class="mt-8 w-4/12">Email</label>
+                <input class="contact-input focus:outline-none w-4/12 mt-2" type="text" id="email" />
+                <label for="message" class="mt-8 w-4/12">Message</label>
+                <textarea class="contact-input focus:outline-none w-4/12 mt-2" type="text" id="message"></textarea>
+                <button style="background-color: rgba(247, 226, 183, 0.4); border-radius: 20px;" class="mt-8 py-3 w-1/5">Submit</button>
+            </div>
+            <div style="width: 2px; height: 60%; align-self: center;" class="bg-white">
+            </div>
+            <div style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)); border-top-right-radius: 15px; border-bottom-right-radius: 15px;" class="w-2/5 h-full flex flex-col justify-center items-center">
+                <div class="w-3/5 mx-auto">
+                    <div class="flex items-center">
+                        <span style="width: 50px;"><i class="fas fa-map-marker-alt fa-2x mr-6"></i></span> 
+                        <h1>1 Fake Road, City, Country</h1>
+                    </div>
+                    <div class="flex items-center mt-8">
+                        <span style="width: 50px;"><i class="fas fa-envelope fa-2x mr-6"></i></span> 
+                        <h1>contact@example.com</h1>
+                    </div>
+                    <div class="flex items-center mt-8">
+                        <span style="width: 50px;"><i class="fas fa-phone fa-2x mr-6"></i></span> 
+                        <h1>01234 567890</h1>
+                    </div>
+                    <div class="flex items-center mt-8">
+                        <i class="fab fa-facebook fa-2x"></i>
+                        <i class="fab fa-twitter-square fa-2x ml-6"></i>
+                        <i class="fab fa-linkedin fa-2x ml-6"></i>
+                        <i class="fab fa-google-plus-square fa-2x ml-6"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
