@@ -627,18 +627,33 @@ video {
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   margin: 0;
   padding: 0;
 }
 
 .intro-section {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 228, 169, 0.85)), to(rgba(255, 228, 169, 0.85))), url("../images/landscape.jpeg");
-  background-image: linear-gradient(rgba(255, 228, 169, 0.85), rgba(255, 228, 169, 0.85)), url("../images/landscape.jpeg");
+  background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(255, 228, 169, 0.85)),
+      to(rgba(255, 228, 169, 0.85))
+    ),
+    url("../images/landscape.jpeg");
+  background-image: linear-gradient(
+      rgba(255, 228, 169, 0.85),
+      rgba(255, 228, 169, 0.85)
+    ),
+    url("../images/landscape.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .home-nav {
@@ -655,12 +670,15 @@ body {
 }
 
 .main-image {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/photographer.jpeg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/photographer.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+    url("../images/photographer.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/photographer.jpeg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 6rem 0;
 }
 
 .main-text {
@@ -673,7 +691,7 @@ body {
   }
 
   .home-nav {
-    background-color: rgba(0,0,0,0.05)
+    background-color: rgba(0, 0, 0, 0.05);
   }
 }
 

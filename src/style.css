@@ -3,59 +3,64 @@
 @tailwind components;
 
 body {
-    font-family: 'Raleway';
-    margin: 0;
-    padding: 0;
+  font-family: "Raleway";
+  margin: 0;
+  padding: 0;
 }
 
 .intro-section {
-    background-image: linear-gradient(rgba(255, 228, 169, 0.85), rgba(255, 228, 169, 0.85)), url("../images/landscape.jpeg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(255, 228, 169, 0.85),
+      rgba(255, 228, 169, 0.85)
+    ),
+    url("../images/landscape.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .home-nav {
-    background-color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(0, 0, 0, 0.87);
 }
 
 .home-nav h1:hover {
-    background-color: rgba(192, 192, 192, 0.178);
+  background-color: rgba(192, 192, 192, 0.178);
 }
 
 .home-nav h1 {
-    transition: 0.1s all ease-in;
+  transition: 0.1s all ease-in;
 }
 
 .main-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/photographer.jpeg");
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/photographer.jpeg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .main-text {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 @media (min-width: 768px) {
-    .main-text {
-        font-size: 60px;
-    }
-    .home-nav {
-        background-color: rgba(0,0,0,0.05)
-    }
+  .main-text {
+    font-size: 60px;
+  }
+  .home-nav {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
 }
 
 .hire-btn {
-    border-radius: 30px;
-    background-color: rgba(231, 195, 104, 0.8);
-    transition: 0.2s ease-in all;
+  border-radius: 30px;
+  background-color: rgba(231, 195, 104, 0.8);
+  transition: 0.2s ease-in all;
 }
 
 .hire-btn:hover {
-    background-color: rgb(226, 205, 153);
+  background-color: rgb(226, 205, 153);
 }
 
 @tailwind utilities;
